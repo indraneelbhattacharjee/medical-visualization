@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+  background-color: #191f36;
+  color: #fff;
+}
+
+.dashboard {
+  text-align: center;
+  padding: 20px;
+}
+
+.controls {
+  margin: 20px 0;
+}
+
+.controls label {
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.controls select {
+  padding: 5px;
+  font-size: 1em;
+}
+
+.chart-container {
+  margin: auto;
+  max-width: 90vw;
+  padding: 20px;
+  background-color: #262b40;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #59B2F4;
+}
+
+.vega-embed {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
